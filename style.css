@@ -1,0 +1,68 @@
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+font-family: 'poppins', sans-serif
+}
+html{
+font-size: 62.5%;
+}
+
+.nav-item{
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+.nav-item a{
+    color: white;
+    font-weight: 400;
+}
+
+.logo{
+    max-width: 150px;
+}
+
+.blanco{
+    background: white;
+    width: 185px;
+    height: 80px;
+    left: -2px;
+    border-radius: 0 0 25px 25px;
+    z-index: -99;
+}
+
+
+
+.paga{
+    font-size: 14px !important;
+    padding: 5px 20px !important;
+    box-shadow: -10px 12px 23px -11px rgba(57,57,57,0.67);
+-webkit-box-shadow: -10px 12px 23px -11px rgba(57,57,57,0.67);
+-moz-box-shadow: -10px 12px 23px -11px rgba(57,57,57,0.67);
+}
+
+.fondo-general{
+    background: rgb(86,151,255);
+background: linear-gradient(180deg, rgba(86,151,255,1) 0%, rgba(255,255,255,1) 100%);
+    height: 300px;
+    z-index: -100;
+}
+
+.fondo1{
+    padding-top: 100px;
+    margin: auto;
+    width: 100%;
+    max-width: 1920px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.familia{
+    width: 80%;
+}
+
