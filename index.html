@@ -11,16 +11,50 @@
 </head>
 
 <body>
-    <div class="container-main">
-        <div class="content">
-            <div class="logo-container">
-                <img class="logo" src="/img/logo.png" alt="">
-            </div>
+    <div id="app" class="position-relative d-flex align-items-center flex-column">
+        <div class="position-absolute fondo-general">
+            <img src="https://res.cloudinary.com/ddegh9xqy/image/upload/v1632379061/fondo_landing_ksv2eg.png" alt="Fondo" class="fondo1">
         </div>
-    </div>
-
+        <nav class="navbar navbar-expand-lg container pt-4">
+            <div class="container-fluid" >
+              <a class="navbar-brand" href="/">
+                  <img src="https://res.cloudinary.com/ddegh9xqy/image/upload/v1632377670/Logo_Mesa_de_trabajo_1_in9ycy.png" alt="Logo Inalfez" class="logo">
+            </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-5">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link ">Disabled</a>
+                  </li>
+                </ul>
+              </div>
+              <button type="button" class="btn btn-primary paga">Paga tu crédito</button>
+            </div>
+          </nav>
+          <div class="container">
+            <div class="row">
+                <div class="col info"></div>
+                <div class="col img">
+                    <img src="https://res.cloudinary.com/ddegh9xqy/image/upload/v1632381164/familia_ao6edf.png" alt="Familia" class="familia">
+                </div>
+            </div>
+          </div>
+        <!-- <div class="elfsight-app-2795265a-2dfc-4fad-a95f-d4a48ccb242b"></div>
+        </div> -->
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    <script src=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="./main.js"></script>
 </body>
-
 </html>
