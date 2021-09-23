@@ -31,6 +31,12 @@ font-size: 62.5%;
     z-index: -99;
 }
 
+.contenedor{
+    max-width: 1320px;
+    width: 100%;
+    padding: 20px;
+}
+
 
 
 .paga{
@@ -55,6 +61,7 @@ background: linear-gradient(180deg, rgba(86,151,255,1) 0%, rgba(255,255,255,1) 1
     max-width: 1920px;
 }
 
+
 .img{
     display: flex;
     justify-content: center;
@@ -62,7 +69,13 @@ background: linear-gradient(180deg, rgba(86,151,255,1) 0%, rgba(255,255,255,1) 1
     padding: 10px;
 }
 
+.img img{
+    max-width: 375px;
+    width: 100%;
+}
+
 .familia{
     width: 80%;
 }
+
 
