@@ -16,6 +16,18 @@ font-size: 62.5%;
 .nav-item a{
     color: white;
     font-weight: 400;
+    text-shadow: 2px 2px 5px rgb(31, 31, 31);
+    transition: .3s;
+}
+
+.nav-item a:hover{
+    color: white !important;
+    transform: scale(1.1);
+    font-weight: 700px;
+}
+
+.nav-item a:focus{
+    color: white;
 }
 
 .logo{
@@ -32,16 +44,16 @@ font-size: 62.5%;
 }
 
 .contenedor{
-    max-width: 1320px;
+    max-width: 1080px;
     width: 100%;
-    padding: 20px;
+    padding: 0 20px;
+    height: 100%;
+    max-height: 520px;
 }
-
-
 
 .paga{
     font-size: 14px !important;
-    padding: 5px 20px !important;
+    padding: 8px 25px !important;
     box-shadow: -10px 12px 23px -11px rgba(57,57,57,0.67);
 -webkit-box-shadow: -10px 12px 23px -11px rgba(57,57,57,0.67);
 -moz-box-shadow: -10px 12px 23px -11px rgba(57,57,57,0.67);
@@ -55,10 +67,38 @@ background: linear-gradient(180deg, rgba(86,151,255,1) 0%, rgba(255,255,255,1) 1
 }
 
 .fondo1{
-    padding-top: 100px;
+    padding-top: 180px;
     margin: auto;
     width: 100%;
     max-width: 1920px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center ;
+}
+
+.info h3{
+    font-size: 30px;
+    text-shadow: 2px 2px 5px rgb(31, 31, 31);
+}
+
+.info h2 {
+    font-size: 80px;
+    font-weight: 800;
+    text-shadow: 2px 2px 10px rgb(31, 31, 31);
+}
+
+.saber{
+    font-size: 14px !important;
+    padding: 10px 25px !important;
+    box-shadow: -10px 12px 23px -11px rgba(57,57,57,0.67);
+-webkit-box-shadow: -10px 12px 23px -11px rgba(57,57,57,0.67);
+-moz-box-shadow: -10px 12px 23px -11px rgba(57,57,57,0.67);
+    width: 200px;
+    border-radius: 100px !important;
 }
 
 
@@ -70,12 +110,7 @@ background: linear-gradient(180deg, rgba(86,151,255,1) 0%, rgba(255,255,255,1) 1
 }
 
 .img img{
-    max-width: 375px;
-    width: 100%;
-}
-
-.familia{
-    width: 80%;
+    max-width: 325px;
 }
 
 
