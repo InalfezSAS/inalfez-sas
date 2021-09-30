@@ -43,12 +43,16 @@ font-size: 62.5%;
     z-index: -99;
 }
 
+
+
 .contenedor{
     max-width: 1080px;
     width: 100%;
     padding: 0 20px;
-    height: 100%;
-    max-height: 520px;
+}
+
+.contenedor .row{
+height: 100%;
 }
 
 .paga{
@@ -59,10 +63,23 @@ font-size: 62.5%;
 -moz-box-shadow: -10px 12px 23px -11px rgba(57,57,57,0.67);
 }
 
-.fondo-general{
-    background: rgb(86,151,255);
-background: linear-gradient(180deg, rgba(86,151,255,1) 0%, rgba(255,255,255,1) 100%);
+.swiper {
+    width: 100%;
     height: 300px;
+  }
+
+  .fondo-luisa {
+    background: url("https://res.cloudinary.com/ddegh9xqy/image/upload/v1632436541/fondo_landing_ifeazb.png");
+    width: 100vw;
+    height: 600px;
+    background-size: cover;
+  }
+
+
+.fondo-general{
+    background: url("https://res.cloudinary.com/ddegh9xqy/image/upload/v1632436541/fondo_landing_ifeazb.png");
+    height: 600px;
+    width: 100vw;
     z-index: -100;
 }
 
@@ -110,7 +127,24 @@ background: linear-gradient(180deg, rgba(86,151,255,1) 0%, rgba(255,255,255,1) 1
 }
 
 .img img{
+    width: 100%;
     max-width: 325px;
+}
+
+.quienes h2{
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+.quienes p{
+    font-size: 14px;
+    -webkit-line-clamp: 3;
+}
+
+
+.img-quienes{
+    width: 100%;
+    border-radius: 20px;
 }
 
 
