@@ -9,7 +9,7 @@ font-size: 62.5%;
 }
 
 .nav-item{
-    font-size: 14px;
+    font-size: 15px;
     margin: 0 5px;
 }
 
@@ -68,20 +68,22 @@ height: 100%;
     height: 300px;
   }
 
-  .fondo-luisa {
-    background: url("https://res.cloudinary.com/ddegh9xqy/image/upload/v1632436541/fondo_landing_ifeazb.png");
-    width: 100vw;
-    height: 600px;
+  .quienes .col{
+      padding: 0 25px;
+  }
+
+  .quienes h2{
+      font-size: 25px;
+  }
+
+  .fondo-general {
+    background: url("https://res.cloudinary.com/ddegh9xqy/image/upload/v1632982503/fondo_landing_wbmqbx.png");
+    width: 100%;
+    max-width: 1920px;
+    height: 780px;
     background-size: cover;
   }
 
-
-.fondo-general{
-    background: url("https://res.cloudinary.com/ddegh9xqy/image/upload/v1632436541/fondo_landing_ifeazb.png");
-    height: 600px;
-    width: 100vw;
-    z-index: -100;
-}
 
 .fondo1{
     padding-top: 180px;
@@ -95,6 +97,7 @@ height: 100%;
     flex-direction: column;
     color: white;
     justify-content: center ;
+    padding-bottom: 100px;
 }
 
 .info h3{
@@ -128,7 +131,7 @@ height: 100%;
 
 .img img{
     width: 100%;
-    max-width: 325px;
+    max-width: 425px;
 }
 
 .quienes h2{
@@ -137,8 +140,12 @@ height: 100%;
 }
 
 .quienes p{
-    font-size: 14px;
+    -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
+    display: -webkit-box;
+    font-size: 14px;
+    overflow: hidden;
+    text-align: left;
 }
 
 
