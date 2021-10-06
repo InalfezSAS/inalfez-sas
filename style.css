@@ -63,6 +63,10 @@ height: 100%;
 -moz-box-shadow: -10px 12px 23px -11px rgba(57,57,57,0.67);
 }
 
+.quienes{
+    margin-bottom: 80px;
+}
+
 .swiper {
     width: 100%;
     height: 300px;
@@ -148,10 +152,39 @@ height: 100%;
     text-align: left;
 }
 
+.quienes span{
+    font-size: 14px;
+    color: #94C11E;
+    font-weight: 500;
+}
+
 
 .img-quienes{
     width: 100%;
     border-radius: 20px;
 }
 
+
+.proyecto .fondo{
+    position: absolute;
+    background-image: url("https://res.cloudinary.com/ddegh9xqy/image/upload/v1633466174/fondo_yayuma.svg");
+    width: 100%;
+    max-width: 1920px;
+    height: 780px;
+    background-size: cover;
+    z-index: 0;
+}
+
+.proyecto-p1{
+    z-index: 100;
+}
+
+
+
+.img-p1{
+    height: 100%;
+    width: 370px;
+    background-image: url("https://res.cloudinary.com/ddegh9xqy/image/upload/v1633467938/foto_1_jvjen2.png");
+    background-size: cover;
+}
 
