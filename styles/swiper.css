@@ -1,0 +1,57 @@
+.equipo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/fondo-equipo.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+@media (max-width: 800px) {
+    .equipo {
+        background: none;
+    }
+}
+
+.swiper {
+    width: 500px;
+    height: 400px;
+    padding: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+}
+
+.button-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.team-title p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.team-card {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0px 3px 8px -1px rgba(0, 0, 0, 0.5);
+}
+
+.team-img div {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+    background-image: url('https://www.dzoom.org.es/wp-content/uploads/2020/02/portada-foto-perfil-redes-sociales-consejos.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
