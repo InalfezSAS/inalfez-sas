@@ -2,141 +2,145 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
-	<link rel="stylesheet" href="./styles/style.css">
-	<link rel="stylesheet" href="./styles/swiper.css" />
-	<link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/swiper.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/infoCarousel.css" />
 
-	<title>Inalfez SAS</title>
+    <title>Inalfez SAS</title>
 </head>
 
 <body>
-	<div id="app" class="position-relative d-flex align-items-center flex-column">
-		<div class="fondo-general">
-			<!--
+    <div id="app" class="position-relative d-flex align-items-center flex-column">
+        <div class="fondo-general">
+            <!--
         <div class="position-absolute fondo-general">
           
             <img src="https://res.cloudinary.com/ddegh9xqy/image/upload/v1632436541/fondo_landing_ifeazb.png" alt="Fondo" class="fondo1">
           
         </div>-->
 
-			<!-- Nav -->
-			
-			<nav class="navbar navbar-expand-lg container pt-4">
-				<div class="container-fluid">
-					<a class="navbar-brand" href="/">
-						<img src="https://res.cloudinary.com/ddegh9xqy/image/upload/v1632377670/Logo_Mesa_de_trabajo_1_in9ycy.png"
-							alt="Logo Inalfez" class="logo">
-					</a>
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-						aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- Nav -->
+
+            <nav class="navbar navbar-expand-lg container pt-4">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/">
+                        <img src="https://res.cloudinary.com/ddegh9xqy/image/upload/v1632377670/Logo_Mesa_de_trabajo_1_in9ycy.png" alt="Logo Inalfez" class="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg></span>
 					</button>
-					<div class="collapse navbar-collapse" id="navbarNav">
-						<ul class="navbar-nav ms-5">
-							<li class="nav-item">
-								<a class="nav-link" href="#">¿Quiénes somos?</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">La Reserva</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Nuestro equipo</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link ">Contáctanos</a>
-							</li>
-						</ul>
-            <button type="button" class="btn btn-primary paga d-block d-lg-none">Paga tu crédito</button>
-					</div>
-					<button type="button" class="btn btn-primary paga d-none d-lg-block">Paga tu crédito</button>
-				</div>
-			</nav>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="d-flex flex-column align-items-end p-3" style="width: max-content; margin-left: auto;">
+                            <ul class="navbar-nav ms-mlg-5 text-end" style="width: max-content;">
+                                <li class="nav-item my-3 my-lg-0">
+                                    <a class="nav-link" href="#">¿Quiénes somos?</a>
+                                </li>
+                                <li class="nav-item my-3 my-lg-0">
+                                    <a class="nav-link" href="#">La Reserva</a>
+                                </li>
+                                <li class="nav-item my-3 my-lg-0">
+                                    <a class="nav-link" href="#">Nuestro equipo</a>
+                                </li>
+                                <li class="nav-item my-3 my-lg-0">
+                                    <a class="nav-link ">Contáctanos</a>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-primary paga d-block d-lg-none">Paga tu crédito</button>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary paga d-none d-lg-block">Paga tu crédito</button>
+                </div>
+            </nav>
 
-			<!-- Portada -->
+            <!-- Portada -->
 
-			<div class="container mt-5">
-				<div class="row">
-					<div class="col-6 info">
-						<h3 class="mb-0">El lugar perfecto para</h3>
-						<h2 class="mb-2">LA FAMILIA</h2>
-						<button type="button" class="btn btn-primary saber">Quiero saber más</button>
-					</div>
-					<div class="col-6 img">
-						<img src="https://res.cloudinary.com/ddegh9xqy/image/upload/v1632381164/familia_ao6edf.png" alt="Familia"
-							class="familia">
-					</div>
-				</div>
-			</div>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-6 info">
+                        <h3 class="mb-0">El lugar perfecto para</h3>
+                        <h2 class="mb-2">LA FAMILIA</h2>
+                        <button type="button" class="btn btn-primary saber">Quiero saber más</button>
+                    </div>
+                    <div class="col-6 img">
+                        <img src="https://res.cloudinary.com/ddegh9xqy/image/upload/v1632381164/familia_ao6edf.png" alt="Familia" class="familia">
+                    </div>
+                </div>
+            </div>
 
-		</div>
+        </div>
 
-		<!-- ¿Quiénes somos? -->
+        <!-- ¿Quiénes somos? -->
 
-		<div class="container quienes">
-			<div class="row">
-				<div class="col-4">
-					<div class="row row-cols-1">
-						<div class="col">
-							<img
-								src="https://res.cloudinary.com/ddegh9xqy/image/upload/v1632465595/WhatsApp_Image_2021-08-20_at_11.04.56_AM_1_fwacmf.jpg"
-								alt="" class="img-quienes">
-						</div>
-						<div class="col">
-							<h2>¿Quiénes somos?</h2>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit provident corporis delectus
-								perspiciatis, voluptatibus doloribus cum accusamus earum. Eum rerum, maxime labore ipsa quibusdam vel
-								quaerat odio perferendis in
-								ea.
-							</p>
-							<span>Ver más...</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-4">
-					<div class="row row-cols-1">
-						<div class="col">
-							<img
-								src="https://res.cloudinary.com/ddegh9xqy/image/upload/v1632465595/WhatsApp_Image_2021-08-20_at_11.04.56_AM_1_fwacmf.jpg"
-								alt="" class="img-quienes">
-						</div>
-						<div class="col">
-							<h2>Misión</h2>
-							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio dolores nesciunt tenetur minima
-								voluptate molestias nemo veritatis cupiditate in eos enim sint iusto, optio, eligendi facilis maiores
-								quas necessitatibus
-								officiis!
-							</p>
-							<span>Ver más...</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-4">
-					<div class="row row-cols-1">
-						<div class="col">
-							<img
-								src="https://res.cloudinary.com/ddegh9xqy/image/upload/v1632465595/WhatsApp_Image_2021-08-20_at_11.04.56_AM_1_fwacmf.jpg"
-								alt="" class="img-quienes">
-						</div>
-						<div class="col">
-							<h2>Visión</h2>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis possimus autem pariatur placeat
-								consectetur! Rem saepe earum a mollitia labore, soluta quis! Nihil eum, tempore vel natus excepturi
-								labore officiis.</p>
-							<span>Ver más...</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+        <div class="container quienes d-none d-lg-block">
+            <div class="row justify-content-center">
+                <div class="col-4" style="width: 300px;">
+                    <div class="row row-cols-1">
+                        <div class="col">
+                            <img src="https://res.cloudinary.com/ddegh9xqy/image/upload/v1632465595/WhatsApp_Image_2021-08-20_at_11.04.56_AM_1_fwacmf.jpg" alt="" class="img-quienes">
+                        </div>
+                        <div class="col">
+                            <h2>¿Quiénes somos?</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit provident corporis delectus perspiciatis, voluptatibus doloribus cum accusamus earum. Eum rerum, maxime labore ipsa quibusdam vel quaerat odio perferendis in
+                                ea.
+                            </p>
+                            <span>Ver más...</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4" style="width: 300px;">
+                    <div class="row row-cols-1">
+                        <div class="col">
+                            <img src="https://res.cloudinary.com/ddegh9xqy/image/upload/v1632465595/WhatsApp_Image_2021-08-20_at_11.04.56_AM_1_fwacmf.jpg" alt="" class="img-quienes">
+                        </div>
+                        <div class="col">
+                            <h2>Misión</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio dolores nesciunt tenetur minima voluptate molestias nemo veritatis cupiditate in eos enim sint iusto, optio, eligendi facilis maiores quas necessitatibus
+                                officiis!
+                            </p>
+                            <span>Ver más...</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4" style="width: 300px;">
+                    <div class="row row-cols-1">
+                        <div class="col">
+                            <img src="https://res.cloudinary.com/ddegh9xqy/image/upload/v1632465595/WhatsApp_Image_2021-08-20_at_11.04.56_AM_1_fwacmf.jpg" alt="" class="img-quienes">
+                        </div>
+                        <div class="col">
+                            <h2>Visión</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis possimus autem pariatur placeat consectetur! Rem saepe earum a mollitia labore, soluta quis! Nihil eum, tempore vel natus excepturi labore officiis.</p>
+                            <span>Ver más...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-		<!-- <div class="proyecto d-flex justify-content-center">
+        <div class="swiper quienesSomos">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- <div class="proyecto d-flex justify-content-center">
             <div class="fondo"></div>
             <div class="proyecto-p1">
                 <div class="img-p1">
@@ -145,48 +149,46 @@
             </div>
         </div> -->
 
-		<div class="equipo d-flex flex-column mb-5">
-			<div class="team-title d-flex justify-content-center align-items-center py-4">
-				<p>Nuestro equipo</p>
-			</div>
-			<div class="swiper personal">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<div class="team-card d-flex flex-column">
-							<div class="team-img d-flex justify-content-center">
-								<div></div>
-							</div>
-							<div class="d-flex flex-column align-items-center my-auto" style="height: 100%;">
-								<p style="font-size: 18px;"><strong>Gabriel Alferez</strong> - CEO INALFEZ S.A.S</p>
-								<p style="font-size: 14px;">“Amo mi trabajo como si fuera mi vida”</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="d-none d-md-block">
-					<div class="swiper-button-next"></div>
-					<div class="swiper-button-prev"></div>
-				</div>
-			</div>
-		</div>
+        <div class="equipo d-flex flex-column mb-5">
+            <div class="team-title d-flex justify-content-center align-items-center py-4">
+                <p>Nuestro equipo</p>
+            </div>
+            <div class="swiper personal">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="team-card d-flex flex-column">
+                            <div class="team-img d-flex justify-content-center">
+                                <div></div>
+                            </div>
+                            <div class="d-flex flex-column align-items-center my-auto" style="height: 100%;">
+                                <p style="font-size: 18px;"><strong>Gabriel Alferez</strong> - CEO INALFEZ S.A.S</p>
+                                <p style="font-size: 14px;">“Amo mi trabajo como si fuera mi vida”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-md-block">
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
 
-		<div class="footer mt-5"></div>
+        <div class="footer mt-5"></div>
 
-	</div>
-	<!-- div final app -->
+    </div>
+    <!-- div final app -->
 
 
-	<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
-	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
-	<script type="module">
-		import Swiper from 'https://unpkg.com/swiper@7/swiper-bundle.esm.browser.min.js'
-	</script>
-	<script src="./main.js"></script>
+    <script type="module">
+        import Swiper from 'https://unpkg.com/swiper@7/swiper-bundle.esm.browser.min.js'
+    </script>
+    <script src="./main.js"></script>
 </body>
 
 </html>
