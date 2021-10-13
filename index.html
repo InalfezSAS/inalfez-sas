@@ -36,7 +36,7 @@
 					</a>
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
 						aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
+						<span class="navbar-toggler-icon"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg></span>
 					</button>
 					<div class="collapse navbar-collapse" id="navbarNav">
 						<ul class="navbar-nav ms-5">
@@ -53,8 +53,9 @@
 								<a class="nav-link ">Contáctanos</a>
 							</li>
 						</ul>
+            <button type="button" class="btn btn-primary paga d-block d-lg-none">Paga tu crédito</button>
 					</div>
-					<button type="button" class="btn btn-primary paga">Paga tu crédito</button>
+					<button type="button" class="btn btn-primary paga d-none d-lg-block">Paga tu crédito</button>
 				</div>
 			</nav>
 
@@ -106,7 +107,7 @@
 								alt="" class="img-quienes">
 						</div>
 						<div class="col">
-							<h2>MIsión</h2>
+							<h2>Misión</h2>
 							<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio dolores nesciunt tenetur minima
 								voluptate molestias nemo veritatis cupiditate in eos enim sint iusto, optio, eligendi facilis maiores
 								quas necessitatibus
@@ -186,25 +187,6 @@
 		import Swiper from 'https://unpkg.com/swiper@7/swiper-bundle.esm.browser.min.js'
 	</script>
 	<script src="./main.js"></script>
-
-	<script>
-		var personal = new Swiper(".personal", {
-			effect: "flip",
-			grabCursor: true,
-			loop: true,
-			autoplay: {
-				delay: 2500,
-				disableOnInteraction: false,
-			},
-			pagination: {
-				el: ".swiper-pagination",
-			},
-			navigation: {
-				nextEl: ".swiper-button-next",
-				prevEl: ".swiper-button-prev",
-			},
-		});
-	</script>
 </body>
 
 </html>
