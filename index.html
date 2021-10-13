@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./styles/swiper.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
     <link rel="stylesheet" href="./styles/infoCarousel.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
 
     <title>Inalfez SAS</title>
 </head>
@@ -28,33 +29,28 @@
 
             <!-- Nav -->
 
-            <nav class="navbar navbar-expand-lg container pt-4">
-                <div class="container-fluid">
+            <nav class="navbar container pt-4">
+                <div>
                     <a class="navbar-brand" href="/">
                         <img src="https://res.cloudinary.com/ddegh9xqy/image/upload/v1632377670/Logo_Mesa_de_trabajo_1_in9ycy.png" alt="Logo Inalfez" class="logo">
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg></span>
-					</button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <div class="d-flex flex-column align-items-end p-3" style="width: max-content; margin-left: auto;">
-                            <ul class="navbar-nav ms-mlg-5 text-end" style="width: max-content;">
-                                <li class="nav-item my-3 my-lg-0">
-                                    <a class="nav-link" href="#">¿Quiénes somos?</a>
-                                </li>
-                                <li class="nav-item my-3 my-lg-0">
-                                    <a class="nav-link" href="#">La Reserva</a>
-                                </li>
-                                <li class="nav-item my-3 my-lg-0">
-                                    <a class="nav-link" href="#">Nuestro equipo</a>
-                                </li>
-                                <li class="nav-item my-3 my-lg-0">
-                                    <a class="nav-link ">Contáctanos</a>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-primary paga d-block d-lg-none">Paga tu crédito</button>
-                        </div>
-                    </div>
+                </div>
+
+                <div class="d-lg-grid align-items-center" style="grid-template-columns: 1fr auto;">
+                    <ul class="d-flex text-end align mb-0 justify-content-evenly" style="width: 100%;">
+                        <li class="nav-item li-nav my-lg-0 ">
+                            <a class="" href="">¿Quiénes somos?</a>
+                        </li>
+                        <li class="nav-item li-nav my-lg-0">
+                            <a class="" href="">La Reserva</a>
+                        </li>
+                        <li class="nav-item li-nav my-lg-0">
+                            <a class="" href="">Nuestro Equipo</a>
+                        </li>
+                        <li class="nav-item li-nav my-lg-0">
+                            <a class="" href="">Contáctanos</a>
+                        </li>
+                    </ul>
                     <button type="button" class="btn btn-primary paga d-none d-lg-block">Paga tu crédito</button>
                 </div>
             </nav>
@@ -123,21 +119,59 @@
             </div>
         </div>
 
-        <div class="swiper quienesSomos">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">Slide 1</div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
-                <div class="swiper-slide">Slide 4</div>
-                <div class="swiper-slide">Slide 5</div>
-                <div class="swiper-slide">Slide 6</div>
-                <div class="swiper-slide">Slide 7</div>
-                <div class="swiper-slide">Slide 8</div>
-                <div class="swiper-slide">Slide 9</div>
+        <div class="quienesSomos-container d-flex flex-column mb-5 d-lg-none">
+            <div class="swiper quienesSomos p-0">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="" style="width: 300px;">
+                            <div class="row row-cols-1">
+                                <div class="col">
+                                    <img src="https://res.cloudinary.com/ddegh9xqy/image/upload/v1632465595/WhatsApp_Image_2021-08-20_at_11.04.56_AM_1_fwacmf.jpg" alt="" class="img-quienes">
+                                </div>
+                                <div class="col text-start">
+                                    <h2>¿Quiénes somos?</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit provident corporis delectus perspiciatis, voluptatibus doloribus cum accusamus earum. Eum rerum, maxime labore ipsa quibusdam vel quaerat odio perferendis
+                                        in ea.
+                                    </p>
+                                    <span>Ver más...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="" style="width: 300px;">
+                            <div class="row row-cols-1">
+                                <div class="col">
+                                    <img src="https://res.cloudinary.com/ddegh9xqy/image/upload/v1632465595/WhatsApp_Image_2021-08-20_at_11.04.56_AM_1_fwacmf.jpg" alt="" class="img-quienes">
+                                </div>
+                                <div class="col text-start">
+                                    <h2>Misión</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit provident corporis delectus perspiciatis, voluptatibus doloribus cum accusamus earum. Eum rerum, maxime labore ipsa quibusdam vel quaerat odio perferendis
+                                        in ea.
+                                    </p>
+                                    <span>Ver más...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="" style="width: 300px;">
+                            <div class="row row-cols-1">
+                                <div class="col">
+                                    <img src="https://res.cloudinary.com/ddegh9xqy/image/upload/v1632465595/WhatsApp_Image_2021-08-20_at_11.04.56_AM_1_fwacmf.jpg" alt="" class="img-quienes">
+                                </div>
+                                <div class="col text-start">
+                                    <h2>Visión</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit provident corporis delectus perspiciatis, voluptatibus doloribus cum accusamus earum. Eum rerum, maxime labore ipsa quibusdam vel quaerat odio perferendis
+                                        in ea.
+                                    </p>
+                                    <span>Ver más...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
         </div>
 
         <!-- <div class="proyecto d-flex justify-content-center">
@@ -150,7 +184,7 @@
         </div> -->
 
         <div class="equipo d-flex flex-column mb-5">
-            <div class="team-title d-flex justify-content-center align-items-center py-4">
+            <div class="team-title d-flex justify-content-center align-items-center py-5 mb-5 mb-md-0">
                 <p>Nuestro equipo</p>
             </div>
             <div class="swiper personal">

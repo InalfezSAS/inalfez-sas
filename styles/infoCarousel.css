@@ -1,10 +1,43 @@
-    .quienesSomos {
+    .quienesSomos-container {
         width: 100%;
-        height: 100%;
+        height: max-content;
+    }
+    
+    .quienesSomos {
+        width: 300px;
+        height: max-content;
     }
     
     .quienesSomos .swiper-wrapper .swiper-slide {
+        width: 100%;
+        height: max-content;
+        display: flex;
         text-align: center;
         font-size: 18px;
         background: #fff;
+    }
+    
+    .quienesSomos .col {
+        padding: 0 25px;
+    }
+    
+    .quienesSomos h2 {
+        font-size: 25px;
+        margin-top: 15px;
+        font-weight: 700;
+    }
+    
+    .quienesSomos p {
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        display: -webkit-box;
+        font-size: 14px;
+        overflow: hidden;
+        text-align: left;
+    }
+    
+    .quienesSomos span {
+        font-size: 14px;
+        color: #94C11E;
+        font-weight: 500;
     }

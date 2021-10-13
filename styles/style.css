@@ -9,32 +9,6 @@ html {
     font-size: 62.5%;
 }
 
-.nav-item {
-    font-size: 15px;
-    margin: 0 5px;
-}
-
-.nav-item a {
-    color: white;
-    font-weight: 400;
-    text-shadow: 2px 2px 5px rgb(31, 31, 31);
-    transition: .3s;
-}
-
-.nav-item a:hover {
-    color: white !important;
-    transform: scale(1.1);
-    font-weight: 700px;
-}
-
-.nav-item a:focus {
-    color: white;
-}
-
-.logo {
-    max-width: 150px;
-}
-
 .blanco {
     background: white;
     width: 185px;
@@ -52,14 +26,6 @@ html {
 
 .contenedor .row {
     height: 100%;
-}
-
-.paga {
-    font-size: 14px !important;
-    padding: 8px 25px !important;
-    box-shadow: -10px 12px 23px -11px rgba(57, 57, 57, 0.67);
-    -webkit-box-shadow: -10px 12px 23px -11px rgba(57, 57, 57, 0.67);
-    -moz-box-shadow: -10px 12px 23px -11px rgba(57, 57, 57, 0.67);
 }
 
 .quienes {

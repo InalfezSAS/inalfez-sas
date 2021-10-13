@@ -3,6 +3,7 @@ var app = new Vue({
     data: {
 
     }
+
 })
 
 var personal = new Swiper(".personal", {
@@ -25,6 +26,7 @@ var personal = new Swiper(".personal", {
 var quienesSomos = new Swiper(".quienesSomos", {
     spaceBetween: 30,
     centeredSlides: true,
+    loop: true,
     autoplay: {
         delay: 2500,
         disableOnInteraction: false,
