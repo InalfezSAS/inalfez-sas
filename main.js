@@ -1,11 +1,3 @@
-var app = new Vue({
-    el: '#app',
-    data: {
-
-    }
-
-})
-
 var personal = new Swiper(".personal", {
     effect: "flip",
     grabCursor: true,
